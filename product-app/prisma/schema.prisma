@@ -11,10 +11,10 @@ generator client {
 }
 
 model Product {
-  id          Int     @id @default(autoincrement())
-  sku         String  @unique
+  id          Int      @id @default(autoincrement())
+  sku         String   @unique
   name        String
-  price       Decimal
-  vendor      String
+  price       Decimal?
+  vendor      String?
   description String?
 }
