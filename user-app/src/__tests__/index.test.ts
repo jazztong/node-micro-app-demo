@@ -1,7 +1,7 @@
 import { User } from "@prisma/client";
 import { StatusCodes } from "http-status-codes";
 import request from "supertest";
-import { app } from "../../src/app";
+import app from "../../src/app";
 import { prismaMock } from "./../singleton";
 
 describe("GET /", () => {
