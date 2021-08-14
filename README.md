@@ -2,6 +2,10 @@
 
 A sample nodejs micro-services demo application
 
+## Start database
+
+Run `docker run -d -e POSTGRES_PASSWORD=password -p 5432:5432 postgres` to start database
+
 ## Project start
 
 ### Init Project
@@ -55,3 +59,15 @@ Run `npm run build`
 ### Test
 
 Run `npm run test`
+
+## To run this application
+
+### Start in sequence
+
+Run `make db`
+Run `make migrate`
+Run `make test`
+
+### Remove db
+
+Stop the docker db in your machine
