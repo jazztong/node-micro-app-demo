@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"user-app","dependencies":{"@prisma/client":{"version":"2.29.0"},"express":{"version":"4.17.1"},"http-status-codes":{"version":"2.1.4"}}}
