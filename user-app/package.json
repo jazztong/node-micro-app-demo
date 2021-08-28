@@ -1,7 +1,7 @@
 {
   "name": "user-app",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "dist/server.js",
   "scripts": {
     "prebuild": "eslint",
@@ -10,9 +10,6 @@
     "dev": "npx ts-node src/server.ts",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/jest": "^26.0.24",

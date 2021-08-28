@@ -11,7 +11,7 @@ cover:
 	jest --collect-coverage
 
 docker:
-	docker build --platform linux/amd64 . -t userapp
+	docker build -f ../templates/Dockerfile --platform linux/amd64 . -t userapp
 
 run-docker:
 	docker run -it --rm -p 3000:3000 userapp

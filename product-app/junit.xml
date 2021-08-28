@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="1.753">
+  <testsuite name="GET /" errors="0" failures="0" skipped="0" timestamp="2021-08-28T12:45:29" time="1.684" tests="4">
+    <testcase classname="GET / Healthy Request should success" name="GET / Healthy Request should success" time="0.015">
+    </testcase>
+    <testcase classname="GET /products Get Products Request should success" name="GET /products Get Products Request should success" time="0.004">
+    </testcase>
+    <testcase classname="POST /products POST Products should success" name="POST /products POST Products should success" time="0.009">
+    </testcase>
+    <testcase classname="POST /products POST Products should throw bad request" name="POST /products POST Products should throw bad request" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
