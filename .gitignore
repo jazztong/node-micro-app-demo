@@ -102,3 +102,4 @@ dist
 
 # TernJS port file
 .tern-port
+user-app/test_result/TEST-RESULTS.xml

@@ -12,4 +12,7 @@ module.exports = {
   },
   //file to run before jest start
   setupFilesAfterEnv: ["<rootDir>/src/singleton.ts"],
+  reporters: ["default", "jest-junit"],
+  collectCoverage: true,
+  coverageReporters: ["text", "cobertura"],
 };
